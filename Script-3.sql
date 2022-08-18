@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS Сотрудники(
-    id SERIAL PRIMARY KEY,
-    Имя VARCHAR(60) NOT NULL,
-    Отдел VARCHAR(60) NOT NULL UNIQUE,
-    Начальник INTEGER REFERENCES Сотрудники(id)
-);
